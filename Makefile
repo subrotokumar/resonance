@@ -5,4 +5,4 @@ gen:
 	@go run github.com/99designs/gqlgen generate
 
 start:
-	@go run .cmd/server/server.go
+	@go run ./cmd/server/server.go

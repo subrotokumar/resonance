@@ -1,0 +1,9 @@
+version: '4.1'
+
+services:
+  mongo:
+    container_name: resonance_mongo
+    image: docker.io/mongo
+    network_mode: "host"
+    ports:
+      - 27017:27017
