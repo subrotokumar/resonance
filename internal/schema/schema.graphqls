@@ -1,0 +1,7 @@
+type Query {
+  Resonator(id: String, name: String): Resonator
+}
+
+type Mutation {
+   Version: String!
+}
